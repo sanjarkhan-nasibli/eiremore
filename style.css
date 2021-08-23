@@ -1,11 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 
+::-webkit-scrollbar {
+width: 5px;
+  }
+::-webkit-scrollbar-track{
+  background: #00130D;
+}
+::-webkit-scrollbar-thumb{
+  background: #FFFFFF;
+  border-radius: 5px;
+}
+
 body {
   font-family: 'Montserrat', sans-serif;
   background: url(./src/Sky.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: auto;
+  height: 100%;
+  width: 100%;
   background-attachment: fixed;
   overflow-x: hidden;
   scroll-behavior: smooth;
@@ -154,7 +167,7 @@ header {
 }
 
 #light {
-  height: auto;
+  height: 100%;
   mix-blend-mode: screen;
 }
 
@@ -241,7 +254,7 @@ h2 {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
 
-@media (max-width:800px) {
+@media (max-width: 800px) {
   .card-01{
     flex: 100%;
     max-width: 600px;
