@@ -3,9 +3,11 @@
 ::-webkit-scrollbar {
 width: 5px;
   }
+
 ::-webkit-scrollbar-track{
   background: #00130D;
 }
+
 ::-webkit-scrollbar-thumb{
   background: #FFFFFF;
   border-radius: 5px;
