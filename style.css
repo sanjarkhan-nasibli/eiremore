@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 
 ::-webkit-scrollbar {
-width: 5px;
+width: 7px;
   }
 
 ::-webkit-scrollbar-track{
@@ -10,7 +10,7 @@ width: 5px;
 
 ::-webkit-scrollbar-thumb{
   background: #FFFFFF;
-  border-radius: 5px;
+  border-radius: 7px;
 }
 
 body {
@@ -18,7 +18,7 @@ body {
   background: url(./src/Sky.png);
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: cover;
   background-attachment: fixed;
   overflow-x: hidden;
   scroll-behavior: smooth;
@@ -71,6 +71,8 @@ header {
   text-decoration: none;
   color: white;
   font-size: 16.5px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
 #menu ul li a:hover {
